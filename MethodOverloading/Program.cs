@@ -31,7 +31,11 @@
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(6, 1, false));
+            Console.WriteLine(Add(1, 2));
+            
+            Console.WriteLine(Add(4.8m, 2.5m));
+            
+            Console.WriteLine(Add(6, 1, true));
         }
     }
 }
